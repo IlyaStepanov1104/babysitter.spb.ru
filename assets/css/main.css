@@ -26,7 +26,6 @@ body{
     height: 15px;
 }
 a:link, a:hover, a:visited, a:active {text-decoration: none; color: black}
-
 /*------------------------HEADER------------------------*/
 header{
     margin: 0 calc(15vw + 5px) 0 calc(15vw + 5px);
@@ -267,10 +266,34 @@ div.sim-slider-arrow-right:hover {
 
 .title{
     color: white;
-    font-size: 2em;
+    font-size: 2vw;
     margin: 0;
 }
 
 .text{
-    color: #ffffff;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.title-black{
+    background: url("../image/tablet.png");
+    -webkit-background-size: contain;
+    background-size: contain;
+    color: white;
+    font-size: 2vw;
+    line-height: 2vw;
+    padding: 1vw 0;
+    text-align: center;
+    width: 20vw;
+    margin: 0;
+}
+
+.flex-content{
+    display: flex;
+}
+
+.circle{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
 }
