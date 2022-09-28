@@ -10,6 +10,7 @@ html{
     margin: 0;
     border: 0;
     background-color: #e1a3b0;
+    font-family: 'Jost', sans-serif;
 }
 body{
     background: url(../image/bg.png), url(../image/bg.png) 30px 68px;
@@ -18,7 +19,6 @@ body{
     margin: 0;
     width: 100vw;
     border: 0;
-    height: 100vh;
 }
 
 .empty{
@@ -39,7 +39,6 @@ header{
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-around;
-    font-family: 'Jost', sans-serif;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -260,6 +259,18 @@ div.sim-slider-arrow-right:hover {
 
 /*--------------------------- CONTENT -----------------------------------------*/
 .content{
-    margin: 15px 5vw;
+    margin: 0 8vw;
     background-color: #e1a3b0;
+    padding: 1.5vw;
+    height: 100%;
+}
+
+.title{
+    color: white;
+    font-size: 2em;
+    margin: 0;
+}
+
+.text{
+    color: #ffffff;
 }
