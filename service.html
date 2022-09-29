@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru" style="overflow-x: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Бебиситтер Санкт-Петербург</title>
+    <link type="image/png" rel="icon" href="assets/image/favicon.PNG">
+
+    <!-- STYLE'S -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/media.css" rel="stylesheet">
+
+    <!-- FONT -- JOST -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Пустой блок для однотонного фона сверху -->
+<div class="empty"></div>
+<!-- LOGO AND PC MENU -->
+<header>
+    <a href="index.html" class="a-logo">
+        <div class="logo">
+            <div class="logo-img"></div>
+            <h1>Бебиситтер <br class="br-logo">Санкт-Петербург</h1>
+        </div>
+    </a>
+    <div class="pc-menu">
+        <a href="#">
+            <button class="btn-header active">О няне</button>
+        </a>
+        <a href="#">
+            <button class="btn-header btn-header-first" id="service" onmouseout="changeOut(this)" onmouseover="changeOver(this)">Услуги</button>
+        </a>
+        <a href="#">
+            <button class="btn-header" id="cost" onmouseout="changeOut(this)" onmouseover="changeOver(this)">Стоимость</button>
+        </a>
+        <a href="#">
+            <button class="btn-header" id="record" onmouseout="changeOut(this)" onmouseover="changeOver(this)">Запись</button>
+        </a>
+        <a href="#">
+            <button class="btn-header btn-header-last" id="question" onmouseout="changeOut(this)" onmouseover="changeOver(this)">Вопросы</button>
+        </a></div>
+
+    <input type="checkbox" id="nav-mobile-check" class="custom-checkbox">
+    <label for="nav-mobile-check"></label>
+</header>
+
+<!-- MOBILE MENU -->
+<nav class="mobile-menu" id="nav-mobile">
+    <a href="about.html">
+        <button class="btn-header-mobile">О няне</button>
+    </a>
+    <a href="#">
+        <button class="btn-header-mobile active">Услуги</button>
+    </a>
+    <a href="#">
+        <button class="btn-header-mobile">Стоимость</button>
+    </a>
+    <a href="#">
+        <button class="btn-header-mobile">Запись</button>
+    </a>
+    <a href="#">
+        <button class="btn-header-mobile">Вопросы</button>
+    </a>
+    <a href="#">
+    </a>
+</nav>
+
+<!-- мобильное меню -->
+<script src="assets/js/mobile-nav.js"></script>
+
+<!-- анимация пк кнопок header -->
+<script src="assets/js/hover-header.js"></script>
+</body>
+</html>
